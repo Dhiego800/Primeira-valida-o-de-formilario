@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <title>Formulario</title>
+</head>
+<body>
+	<form id="formuser">
+	<fieldset>
+	 <legend>Dados Pessoais</legend>
+	 <table cellspacing="10">
+	  <tr>
+	   <td>
+	    <label for="name" >Nome: </label>
+	   </td>
+	   <td align="left">
+	    <input type="text" name="nome" class="input-nome">
+	   </td>
+	   <td>
+	    <label name="email" >Email: </label>
+	   </td>
+	   <td align="left">
+	    <input type="email" name="email" class="input-email">
+	   </td>
+	  </tr>
+	  <tr>
+	   <td>
+	    <label>Nascimento: </label>
+	   </td>
+	   <td align="left">
+	    <input type="date" name="nascimento" id="input-nascimento">
+	   </td>
+	  </tr>
+	  <tr>
+	   <td>
+	    <label for="rg">RG: </label>
+	   </td>
+	   <td align="left">
+	    <input type="text" name="rg" size="13" maxlength="13" class="input-rg"> 
+	   </td>
+	  </tr>
+	  <tr>
+	   <td>
+	    <label>CPF:</label>
+	   </td>
+	   <td align="left">
+	    <input type="text" name="cpf" size="11" maxlength="11" class="input-cpf"> 
+	   </td>
+	  </tr>
+	 </table>
+	</fieldset>
+
+	<br />
+
+	<input type="submit" class="bto-enviar">
+	<input type="reset" value="Limpar" class="bto-limpar">
+</form>
+
+<script src="formulario.js"></script>
+</body>
+</html>
